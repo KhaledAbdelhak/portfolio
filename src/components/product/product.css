@@ -1,7 +1,7 @@
+
 .p {
-    width: 30%;
     height: 40vh;
-    margin: 20px 10px;
+    margin: 20px 10px 0px 10px;
     border: 2px solid rgb(243, 242, 242);
     border-radius: 10px 10px 0px 0px;
     overflow: hidden;
@@ -34,9 +34,26 @@
     transform: translateY(-70%);
 }
 
+.tech-div {
+    margin: 0px 10px;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.p-tech {
+    margin: 20px 10px;
+    color: #4b7bec;
+    font-size: 18px;
+}
+
 @media screen and (max-width: 480px) {
     .p {
         width: 40%;
         height: 20vh;
     }
 }
+
+
