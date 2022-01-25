@@ -2,7 +2,6 @@ import shop from "./img/shopsite.png";
 import netflix from "./img/netflix.png";
 import movies from "./img/movies.png";
 import blablaquest from "./img/blablaquest.png"
-
 export const products = [
     {
       id: 1,
